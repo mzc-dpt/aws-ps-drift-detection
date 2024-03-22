@@ -1,6 +1,6 @@
-resource "aws_security_group" "example" {
+resource "aws_security_group" "drift-detection" {
   # vpc_id = aws_vpc.vpc-test-stn.id
-  name   = "example"
+  name   = "drift-detection"
   description = "Example security group for EC2 instances"
 
   ingress {
