@@ -1,5 +1,4 @@
-resource "aws_security_group" "drift-detection" {
-  # vpc_id = aws_vpc.vpc-test-stn.id
+resource "aws_security_group" "drift-detection-sg" {
   name   = "drift-detection-sg"
   description = "Security group for testing terraform enterprise drift detection"
 
